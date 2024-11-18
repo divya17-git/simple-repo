@@ -1,0 +1,35 @@
+git 
+
+1-create a new folder
+2-open a folder in vsc
+3-click on ... and select terminal and then new terminal
+4-- click on arrow beside the +button and select git bash 
+5- check git version (git -v)
+6- instilization --->git init
+7-->create a file--> touch filename
+now the file is in untracked file and we can change untracked file to tracked file by using add
+	-->git add filename(changes only one file)
+      	-->git add . (changes all files)
+8) after add we want config(give username and email)
+Set your username: git config -->global user.name "Your Name"
+Set your email address: git config -->global user.email "you@example.com"
+9) we want to make commit the files
+--> git commit -m "add all the files"
+10) creating the branch
+--> git branch branch_name
+11)checking the status
+--> git status
+12)pushing the file in to git hub
+1.open browser and search GitHub 
+2. login to GitHub and then go to settings and give the name afte that scroll down click update
+3. go to your repositories click on new and give the name to repositorie and scroll down then
+ select create button 
+4.after that repositore will create  and scroll down we have the code just copy and paste in vsc
+{…or push an existing repository from the command line....
+git remote add origin(name) https://github.com/divya17-git/practice-repo.git(paste https link given above)
+git branch -M main
+git push origin(name) main}
+
+
+
+
